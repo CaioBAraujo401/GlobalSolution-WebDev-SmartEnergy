@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    transition: background-color 0.5s ease; 
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 160px;
+    font-family: "Poppins", sans-serif;
+    background-color: whitesmoke;
+}
+
+.logo{
+    height: 90px;
+    margin-left: 50px;
+}
+
+.botoes-cor{
+    position: absolute;
+    margin-left: 1470px;
+}
+
+.botoes-cor button{
+    height: 20px;
+    width: 30px;
+    margin: 5px;
+    display: block;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+
+.botoes-cor #branco{
+    border: 1px solid gray;
+    background-color: #fff;
+}
+
+.botoes-cor #verde{
+    background-color: #8cd66e;
+}
+
+.botoes-cor #azul{
+    background-color: #0179c5;
+}
+
+.botoes-cor #roxo{
+    background-color: #a340aa;
+}
+
+.sections{
+    margin-right: 80px;
+}
+
+.sections a{
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.sections a:hover{
+    text-decoration: underline;
+}
+
+#image{
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.image-container{
+    margin-left: 90px;
+    margin-top: 80px;
+}
+
+.texto-main{
+    width: 700px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.sobre{
+    display: block;
+}
+
+.info-box{
+    width: 100%;
+    height: 575px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-left img{
+    width: 450px;
+    border-radius: 10px;
+}
+
+.image-right img{
+    width: 450px;
+    border-radius: 10px;
+}
+
+.text-right{
+    width: 700px;
+    margin-left: 100px;
+}
+
+.text-left{
+    width: 700px;
+    margin-right: 100px;
+}
+
+.text-right p{
+    text-align: right;
+}
+
+.text-right h1{
+    text-align: right;
+}
+
+.main-solucao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introducao p{
+    text-align: center;
+}
+
+.introducao h1{
+    text-align: center;
+}
+
+.introducao{
+    width: 800px;
+    margin-top: 70px;
+}
+
+.ultimo-texto{
+    margin-bottom: 50px;
+}
+

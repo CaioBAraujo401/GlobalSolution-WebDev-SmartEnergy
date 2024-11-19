@@ -12,7 +12,7 @@ main{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('/src/assets/backgroundLogin.jpg') no-repeat;
+    background: url('src/assets/backgroundLogin.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }

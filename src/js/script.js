@@ -27,10 +27,10 @@ buttonAzul.addEventListener('click', () => mudarCor('#0179c5'));
 buttonRoxo.addEventListener('click', () => mudarCor('#a340aa'));
 
 let imagens = [
-    "/src/assets/painelSolar.jpg",
-    "/src/assets/usinaBiomassa.jpg",
-    "../src/assets/usinaEolica.jpg",
-    "../src/assets/usinaMaremotriz.jpg",
+    "src/assets/painelSolar.jpg",
+    "src/assets/usinaBiomassa.jpg",
+    "src/assets/usinaEolica.jpg",
+    "src/assets/usinaMaremotriz.jpg",
 
 ];
 
